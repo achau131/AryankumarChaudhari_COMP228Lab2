@@ -1,0 +1,30 @@
+Exercise 3
+//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
+// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+public class Main {
+    public static void main(String[] args) {
+
+        System.out.println((add(2,4)));
+        System.out.println((add(4,5,6)));
+        System.out.println((add("Hi ", "How are you")));
+
+        }
+        public static int add(int a, int b)
+        {
+            int sum;
+            sum = a + b;
+            return sum;
+        }
+    public static int add(int a, int b, int c)
+    {
+        int sum;
+        sum = a + b + c;
+        return sum;
+    }
+    public static String add(String a, String b)
+    {
+        String sum;
+        sum = a + b;
+        return sum;
+    }
+    }
