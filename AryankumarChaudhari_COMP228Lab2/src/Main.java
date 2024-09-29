@@ -1,3 +1,8 @@
+Lab 2 
+Name: Aryankumar Chaudhari;
+301430998;
+
+
 import java.util.Scanner;
 import java.util.List;
 import java.util.ArrayList;
