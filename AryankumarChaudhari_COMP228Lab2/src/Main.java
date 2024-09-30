@@ -1,6 +1,6 @@
-Lab 2 
-Name: Aryankumar Chaudhari;
-301430998;
+//Lab 2 
+//Name: Aryankumar Chaudhari;
+//301430998;
 
 
 import java.util.Scanner;
@@ -54,12 +54,13 @@ class Test {
         String[] incorrectMessages = {"Oops, that's not correct.", "Try again next time.", "Incorrect, but keep trying!"};
 
         Random rand = new Random();
-        if (isCorrect) {
-            int randomIndex = rand.nextInt(correctMessages.length);
-            System.out.println(correctMessages[randomIndex]);
+        if (isCorrect) { 
+            // or (isCorrect == true)
+            int randomMessage = rand.nextInt(correctMessages.length); 
+            System.out.println(correctMessages[randomMessage]);
         } else {
-            int randomIndex = rand.nextInt(incorrectMessages.length);
-            System.out.println(incorrectMessages[randomIndex]);
+            int randomMessage = rand.nextInt(incorrectMessages.length);
+            System.out.println(incorrectMessages[randomMessage]);
         }
     }
 
