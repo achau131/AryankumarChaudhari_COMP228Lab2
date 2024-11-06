@@ -20,7 +20,7 @@ public class Main {
             System.out.println("enter a appropriate number! between 3 and 27");
             return;
         }
-
+        else
         for(int i = 1; i<=3 ; i++ )
         {
             Lotto lotto = new Lotto();
